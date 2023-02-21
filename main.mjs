@@ -1,0 +1,1 @@
+alert ('This web is responsive on all screen sizes');
