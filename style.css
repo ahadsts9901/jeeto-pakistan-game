@@ -1,13 +1,193 @@
-h1{font-family: 'Courier New', Courier, monospace; color: rgb(139, 192, 40);}
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1c3948;
+    color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em 1em;
+    background-color: #e4960e;
+    color: #1c3948;
+}
+
+header .logo{
+    background-color: #1c3948;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    padding: 0.5em 1em;
+    align-items: center;
+    width: 10em;
+}
+
+hr{
+    border: 1px solid #e4960e;
+}
+
+.instructions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2em;
+    line-height: 0em;
+    margin-top: 1em;
+}
+
+.firstrow, .secondrow, .thirdrow, .fourthrow, .fifthrow{
+    display: flex;
+    justify-content: space-between;
+    padding: 0em 1em;
+}
+
+.box{
+    width: 5em;
+    height: 5em;
+    background-color: #e4960e;
+    color: #1c3948;
+    font-size: 1.2em;
+    display: flex;
+    margin: 1em;
+    margin-left: -1em;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #e4960e;
+}
+
+.box:hover{
+    color: #ffffff;
+    border: 2px solid #e4960e;
+    background-color: #1c3948;
+}
+
+.box1st, .box2nd, .box3rd, .box4th, .box5th, .box6th, .box7th, .box8th, .box9th, .box10th, .box11th, .box12th, .box13th, .box14th, .box15th, .box16th, .box17th, .box18th, .box19th, .box20th, .box21th, .box22th, .box23th, .box24th, .box25th{
+    height: 5em;
+    width: 5em;
+    margin: 1em;
+}
+
+.inam{
+    width: 4em;
+    height: 4em;
+    background-color: rgb(255, 0, 0);
+    display: block;
+    border-radius: 40px;
+    z-index: -20;
+    position: relative;
+    top: -6.4em;
+    left: 2.3em;
+    margin-left: -2.5em;
+}
+
+input{
+    display: none;
+}
 
 
-h2{font-family: 'Times New Roman', Times, serif; color: rgb(189, 189, 14); border: 1 black;}
 
+/* boxes checked conditions */
 
-h3{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(156, 9, 156);}
+#box1:checked + label{
+    opacity: 0;
+}
 
+#box2:checked + label{
+    opacity: 0;
+}
 
-b{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: orangered;}
+#box3:checked + label{
+    opacity: 0;
+}
 
+#box4:checked + label{
+    opacity: 0;
+}
 
-i{font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: rgb(0, 93, 109);}
+#box5:checked + label{
+    opacity: 0;
+}
+
+#box6:checked + label{
+    opacity: 0;
+}
+
+#box7:checked + label{
+    opacity: 0;
+}
+
+#box8:checked + label{
+    opacity: 0;
+}
+
+#box9:checked + label{
+    opacity: 0;
+}
+
+#box10:checked + label{
+    opacity: 0;
+}
+
+#box11:checked + label{
+    opacity: 0;
+}
+
+#box12:checked + label{
+    opacity: 0;
+}
+
+#box13:checked + label{
+    opacity: 0;
+}
+
+#box14:checked + label{
+    opacity: 0;
+}
+
+#box15:checked + label{
+    opacity: 0;
+}
+
+#box16:checked + label{
+    opacity: 0;
+}
+
+#box17:checked + label{
+    opacity: 0;
+}
+
+#box18:checked + label{
+    opacity: 0;
+}
+
+#box19:checked + label{
+    opacity: 0;
+}
+
+#box20:checked + label{
+    opacity: 0;
+}
+
+#box21:checked + label{
+    opacity: 0;
+}
+
+#box22:checked + label{
+    opacity: 0;
+}
+
+#box23:checked + label{
+    opacity: 0;
+}
+
+#box24:checked + label{
+    opacity: 0;
+}
+
+#box25:checked + label{
+    opacity: 0;
+}
